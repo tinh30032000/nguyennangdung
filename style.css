@@ -1,0 +1,122 @@
+body{
+	width: 100%;
+}
+nav{
+	width: 100%;
+}
+nav .container  ul li a{
+	font-size: 20px;
+}
+nav .container  ul li{
+		padding: 0px 15px 0px 15px;
+}
+
+#about-me .container .row h2{
+	font-size: 54px;
+    display: block;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.3;
+    font-family: "Teko",sans-serif;
+    color: #2c234d;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#detail .container h2{
+	font-size: 54px;
+    display: block;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.3;
+    font-family: "Teko",sans-serif;
+    color: #2c234d;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+#blogs .container-fuild img{
+	margin-left: 7px;
+}
+#blogs .container-fuild h2{
+	font-size: 54px;
+    display: block;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.3;
+    font-family: "Teko",sans-serif;
+    color: #2c234d;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+#more .container .button{
+	margin-top: 50px;
+	width: 400px;
+	height: 50px;
+	background: transparent;
+	border-radius: 5px;
+	border: 1px solid #FF3414;
+	color:#FF3414 ;
+	line-height: 50px;
+	text-align: center;
+}
+#more .container .button a{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+#more .container .button:hover{
+	background:#FF3414  ;
+	color: white;
+}
+#contact-location{
+	margin-top: 50px;
+	background-color: black;
+	min-height: 300px;
+}
+#contact-location .container{
+	padding-top: 100px;
+}
+#contact-location .container .row .logo-location ul{
+	display: flex;
+	list-style-type: none;
+}
+#contact-location .container .row p{
+	color: white;
+}
+#contact-location .container .row h3{
+	color: white;
+}
+#contact-location .container .row .logo-location ul li{
+	padding: 20px 25px 0px 0px;
+}
+#contact-location  .container .row  .logo-location ul li i{
+	line-height: 35px;
+	text-align: center;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	color: white;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-facebook{
+	background: #3b5797;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-google-plus{
+	background: #db4337;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-twitter{
+	background: #00aced;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-youtube{
+	background: #bb0000;
+}
+@media (max-width: 767px) {
+	#contact-location .container{
+	padding-top: 0px;
+	text-align: center;
+	}
+	#contact-location  .container .row  .logo-location{
+		margin-left: 60px;
+	}
+}
